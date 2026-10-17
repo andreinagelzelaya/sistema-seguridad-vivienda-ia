@@ -1,0 +1,7 @@
+# Versiones exactas del entorno usado (Python 3.12.10, Windows 11)
+tensorflow==2.21.0
+tf-keras==2.21.0
+opencv-python==5.0.0.93
+numpy==2.5.3
+requests==2.34.2
+pillow==13.0.0      # solo para sistema_seguridad_demo.py

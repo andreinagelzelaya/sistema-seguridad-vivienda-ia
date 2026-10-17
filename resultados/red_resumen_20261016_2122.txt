@@ -1,0 +1,5 @@
+RESUMEN PRUEBA DE RED - 20261016_2122
+Red 192.168.0.0/24 | UMBRAL_AUSENCIA=3 | INTERVALO_S=3
+Escaneos: 85 | duracion media 3.97 s (min 3.00, max 4.38) | equipos media 7.1 (min 6, max 8)
+desconexion: detectadas 10/10 | media 41.8 s | min 24.9 | max 67.1
+conexion: detectadas 10/10 | media 4.7 s | min 3.8 | max 11.2

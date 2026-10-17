@@ -1,0 +1,18 @@
+# Entorno de Python
+venv/
+__pycache__/
+*.pyc
+
+# Credenciales (copia config_ejemplo.py como config.py)
+config.py
+
+# Datos que genera el sistema (contienen MAC, fotos y videos de la casa)
+evidencia/
+evidencia_demo/
+historial.csv
+conocidos.json
+diario.json
+resultados/muestra_*.jpg
+versiones_anteriores/
+evidencia_demo/
+resultados/*.jpg

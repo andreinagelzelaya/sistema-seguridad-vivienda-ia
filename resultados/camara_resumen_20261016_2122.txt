@@ -1,0 +1,50 @@
+RESUMEN PRUEBA DE CAMARA - 20261016_2122
+Parametros: umbral=0.9, frames=10, ensayos/clase=6, duracion=15s
+
+Frames analizados: 4305
+Exactitud global: 89.18% (3839/4305)
+
+Matriz de confusion (filas = real, columnas = predicho):
+                 vacio     dueno   externo
+     vacio        1333         0       102
+     dueno           0      1350        89
+   externo          20       255      1156
+
+Por clase: precision | sensibilidad | F1 | confianza media (aciertos)
+     vacio: 98.52% | 92.89% | 0.956 | 79.63%
+     dueno: 84.11% | 93.82% | 0.887 | 98.87%
+   externo: 85.82% | 80.78% | 0.832 | 97.06%
+F1 macro: 0.892
+
+Inferencia: media 60.2 ms, DE 2.3 ms, min 56.4, max 138.2, p95 63.1 ms
+FPS de procesamiento: media 16.0 (min 15.3, max 16.1)
+
+Capa de verificacion por ensayo (avisos = dueno/externo confirmados):
+ensayo | real | t_confirmacion | avisos_correctos | avisos_incorrectos | cambios_sin_filtro | avisos_incorrectos_sin_filtro
+     1 |   vacio |  no confirmo |   0 |   0 |   32 |   16
+     2 |   vacio |  no confirmo |   0 |   0 |   40 |   20
+     3 |   vacio |  no confirmo |   0 |   0 |   40 |   20
+     4 |   vacio |  no confirmo |   0 |   0 |   25 |   13
+     5 |   vacio |  no confirmo |   0 |   0 |   29 |   15
+     6 |   vacio |  no confirmo |   0 |   0 |   11 |    6
+     7 |   dueno |       0.68 s |   1 |   0 |   18 |    9
+     8 |   dueno |       2.11 s |   2 |   2 |   11 |    6
+     9 |   dueno |       0.60 s |   1 |   0 |    6 |    3
+    10 |   dueno |       0.60 s |   1 |   0 |    0 |    0
+    11 |   dueno |       0.60 s |   1 |   0 |    0 |    0
+    12 |   dueno |       2.78 s |   1 |   0 |   13 |    7
+    13 | externo |       1.84 s |   1 |   0 |   24 |    7
+    14 | externo |       7.16 s |   2 |   2 |    7 |    4
+    15 | externo |       0.60 s |   1 |   0 |   20 |   10
+    16 | externo |       3.15 s |   2 |   1 |   25 |    9
+    17 | externo |       0.59 s |   1 |   0 |    4 |    2
+    18 | externo |       1.19 s |   1 |   0 |   22 |   11
+TOTAL avisos incorrectos: con filtro 5  vs  sin filtro 158
+TOTAL cambios de clase sin filtro: 327
+Tiempo hasta confirmar: media 1.82 s, min 0.59, max 7.16
+
+Latencia Telegram (s): tipo | n | media | min | max | exitos
+ texto | 10 | 0.95 | 0.91 | 1.03 | 10/10
+  foto | 5 | 1.50 | 1.32 | 1.99 | 5/5
+ video | 3 | 12.91 | 4.95 | 28.78 | 3/3
+Tamano video 8 s: media 984 KB
