@@ -3,6 +3,15 @@
 Proyecto final de ISW-221 Inteligencia Artificial.
 Andrei Nagel Zelaya · Ingeniería Mecatrónica · UCB "San Pablo", Santa Cruz.
 
+## Entregables
+
+- 📄 **Artículo científico:** [DOCUMENTS/Articulo_Seguridad_Vivienda_IA_revisadoANDREI.docx](DOCUMENTS/Articulo_Seguridad_Vivienda_IA_revisadoANDREI.docx)
+- 📊 **Presentación:** [Google Slides](https://docs.google.com/presentation/d/16s7dWISyd8J5Wk_d9WWrWt844gS3caiZQgOhPyPJcPE/edit?usp=sharing)
+- 🎥 **Video de demostración:** [DOCUMENTS/demo_sistema.mp4](DOCUMENTS/demo_sistema.mp4)
+- 💻 **Código:** los archivos de este repositorio (instrucciones abajo).
+
+---
+
 El sistema combina:
 
 - **Cámara + IA (Teachable Machine):** clasifica la entrada en Vacío, Andrei (dueño) o Externo.
@@ -29,6 +38,7 @@ Funciona en **Windows 10/11** y en **Linux (Ubuntu)**.
 | `keras_model.h5`, `labels.txt` | Modelo de Teachable Machine (MobileNetV2, clases Vacio / Andrei / Externo). |
 | `requirements.txt` | Librerías necesarias. |
 | `resultados/` | Datos crudos y resúmenes de las pruebas del 16-10-2026. |
+| `DOCUMENTS/` | Artículo científico, video de demostración y link a la presentación. |
 
 Todos los programas leen los mismos parámetros de `config.py`.
 
